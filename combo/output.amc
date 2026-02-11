@@ -1,6 +1,0 @@
-declare R { mode= 2,latex ="R"} 
-declare G { mode= (1, 1),latex ="G"} 
-declare H { mode= (2, 2),latex="H" }
-declare lambda { mode= (2, 2),latex="\lambda" } 
-declare n {  mode=2, diagonal=true, latex="n"} 
-R_ab=1/4*sum_cde(G_ab*H_bcde*lambda_acde-G_ab*H_cbde*lambda_acde-G_ab*H_cdae*lambda_cdbe+G_ab*H_cdea*lambda_cdbe-G_ae*H_becd+G_ae*H_ebcd+G_cd*H_adbc*n_c-G_cd*H_adbc*n_d-G_cd*H_adcb*n_c+G_cd*H_adcb*n_d-G_cd*H_dabc*n_c+G_cd*H_dabc*n_d+G_cd*H_dacb*n_c-G_cd*H_dacb*n_d+G_ec*H_abde-G_ec*H_abed);
